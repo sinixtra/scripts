@@ -9,7 +9,7 @@ $apps = @(
        } 
     [pscustomobject]@{
            app = "Chrome";
-           source = 'http://dl.google.com/chrome/install/375.126/chrome_installer.exe';
+           source = 'https://dl.google.com/chrome/install/latest/chrome_installer.exe';
            destination = "c:\Temp\chrome.exe";
            location1 = 'C:\Program Files\Google\Chrome\Application\chrome.exe' ; 
            location2 = 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'; 
